@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8E7CC3;
+    height: 60px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8E7CC3;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.logo h2 {
+    background-color: #eeeeee;
+    color: black;
+    margin: 0;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.logo a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+    float:flex-end
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px;
+}
+
+
+.container {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}   
+
+.square1 {
+    background: #6aa84f;
+    height: 200px;
+    width: 200px;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+.square1 p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.square2 {
+    background: #6fa8dc;
+    height: 200px;
+    width: 200px;
+    margin-right: 40px;
+    border-radius: 20px;
+    float: center;
+}
+
+.square2 p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.square3 {
+    background: #f6b26b;
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.square3 p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+footer {
+    background: #999999;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+
+footer p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+}
+
+footer > p > a {
+    color: black;
+    text-decoration: none;
+}
